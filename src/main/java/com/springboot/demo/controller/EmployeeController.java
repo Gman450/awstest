@@ -90,7 +90,7 @@ public class EmployeeController {
 	}
 
 	//Delete
-	@Operation(summary = "Delete employee by id", description = "Delete an employee by id")
+	@Operation(summary = "Delete employee by id", description = "Delete an employee by id NEW CHANGE")
 	@ApiResponses(value = {
 			@ApiResponse(responseCode = "200", description = "Successfully deleted"),
 	})
